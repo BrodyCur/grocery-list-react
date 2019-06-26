@@ -1,11 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ShoppingList from './shoppingList';
+import FilterCategories from './FilterCategories';
+import NewItemForm from './NewItemForm';
 
-function App() {
+const App = () => {
   return (
-    
+    <main className="layout">
+      <header className="header">
+        <h1>Grocery List</h1>
+      </header>
+
+      <NewItemForm />
+
+      <FilterCategories />
+
+      <ShoppingList />
+    </main>
   );
-}
+};
 
 export default App;
