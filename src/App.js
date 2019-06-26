@@ -9,11 +9,8 @@ const App = () => {
       <header className="header">
         <h1>Grocery List</h1>
       </header>
-
       <NewItemForm />
-
       <FilterCategories />
-
       <ShoppingList />
     </main>
   );
